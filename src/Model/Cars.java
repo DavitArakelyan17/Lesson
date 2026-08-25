@@ -1,5 +1,5 @@
 public class Cars {
-    String brand;
+    private String brand;
     String model;
     int year;
     String color;
@@ -13,6 +13,9 @@ public class Cars {
     boolean Is_SUV;
     boolean Is_Cabriolet;
 
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
 
     public void printInfo(){
         System.out.println("Brand:" + " " + brand);
@@ -31,5 +34,5 @@ public class Cars {
 
 
     }
-
+    
 }

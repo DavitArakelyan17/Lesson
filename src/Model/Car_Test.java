@@ -1,7 +1,7 @@
 public class Car_Test {
     public static void main (String[] args){
         Cars bmw = new Cars();
-        bmw.brand = "BMW";
+        bmw.setBrand("BMW");
         bmw.model = "X6M";
         bmw.color = "Black Metallic";
         bmw.year = 2026;
@@ -16,7 +16,7 @@ public class Car_Test {
         bmw.Is_Cabriolet = false;
 
         Cars porsche = new Cars();
-        porsche.brand = "Porsche";
+        porsche.setBrand("Porsche");
         porsche.model = "911 Turbo S";
         porsche.color = "Burgundy";
         porsche.year = 2026;
@@ -32,7 +32,7 @@ public class Car_Test {
 
         Cars escalade = new Cars();
 
-        escalade.brand = "Cadillac";
+        escalade.setBrand("Cadillac");
         escalade.model = "Escalade V";
         escalade.year = 2026;
         escalade.color = "Black";
@@ -48,7 +48,7 @@ public class Car_Test {
 
         Cars rs7 = new Cars();
 
-        rs7.brand = "Audi";
+        rs7.setBrand("Audi");
         rs7.model = "RS7 Performance";
         rs7.year = 2026;
         rs7.color = "Nardo Gray";
@@ -64,7 +64,7 @@ public class Car_Test {
 
         Cars cullinan = new Cars();
 
-        cullinan.brand = "Rolls-Royce";
+        cullinan.setBrand("Rolls-Royce");
         cullinan.model = "Cullinan Series II";
         cullinan.year = 2026;
         cullinan.color = "White";
@@ -80,7 +80,7 @@ public class Car_Test {
 
         Cars g63 = new Cars();
 
-        g63.brand = "Mercedes-Benz";
+        g63.setBrand("Mercedes-Benz");
         g63.model = "AMG G63";
         g63.year = 2026;
         g63.color = "Obsidian Black";
